@@ -134,3 +134,57 @@ input[type='radio'].visually-hidden {
 	background-color: #8f5613;
 	border-color: #8f5613;
 }
+
+.survival {
+	background-color: #02160b;
+	background: url('../img/header-bg@1x.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: -210px;
+	margin-bottom: 120px;
+	padding-top: 200px;
+	padding-bottom: 240px;
+}
+
+.survival__wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.survival__title {
+	margin: 0;
+	font-size: 48px;
+	color: #cd6326;
+	font-weight: normal;
+	margin-bottom: 58px;
+	letter-spacing: 2px;
+}
+
+.survival__description {
+	margin: 0;
+	margin-bottom: 50px;
+	width: 274px;
+	color: #f7f7f7;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.survival__donate-link {
+	display: inline-block;
+	text-decoration: none;
+	padding: 16px 41px;
+	font-size: 23px;
+	color: #f7f7f7;
+	background-color: #cd6326;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+}
+
+.survival__donate-link:hover,
+.survival__donate-link:focus {
+	background-color: #e39128;
+}
+
+.survival__donate-link:active {
+	background-color: #8f5613;
+}
