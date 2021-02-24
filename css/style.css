@@ -299,3 +299,63 @@ input[type='radio'].visually-hidden {
 	line-height: 27px;
 	margin: 0;
 }
+
+.get-notified {
+	background-color: #cccccc;
+	padding-top: 124px;
+	padding-bottom: 240px;
+}
+
+.get-notified__wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.get-notified__description {
+	text-align: center;
+	font-size: 27px;
+	color: #333333;
+	margin: 0 0 64px 0;
+}
+
+.get-notified__form {
+	display: flex;
+	justify-content: center;
+}
+
+.get-notified__email-input {
+	border: 1px solid #666666;
+	width: 540px;
+	padding: 17px 14px;
+	font-size: 23px;
+	color: #666666;
+	background: none;
+	outline: none;
+	transition-duration: 0.2s;
+}
+
+.get-notified__email-input:focus {
+	border-color: #cd6326;
+}
+
+.get-notified__submit-button {
+	font-family: 'Roboto', sans-serif;
+	background-color: #cd6326;
+	color: #f7f7f7;
+	font-size: 23px;
+	border: none;
+	padding: 17px 36px;
+	border-radius: 0px 5px 5px 0px;
+	margin-left: -1px;
+	transition-duration: 0.4s;
+	outline: none;
+}
+
+.get-notified__submit-button:hover,
+.get-notified__submit-button:focus {
+	background-color: #e39128;
+}
+
+.get-notified__submit-button:active {
+	background-color: #8f5613;
+}
